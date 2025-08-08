@@ -63,10 +63,11 @@ curl -X PUT http://127.0.0.1:5000/api/v2/users/1 -H "Content-Type: application/j
 # The application uses SQLite as the database backend. 
 # The database file will be created automatically as `users.db` in the root directory. 
 # You can inspect the database using the SQLite CLI or tools like DB Browser for SQLite.
-
+```
+---
 # Explanation:
 - This **single shell session** includes all the necessary steps to **clone the repo, set up the environment, install dependencies,     initialize the database**, and **run the Flask app**.
-- It also provides all the **API endpoints and example `cURL` commands** for testing the API.
+- It also provides all the **API endpoints and example cURL commands** for testing the API.
 - The **Database section** mentions that SQLite is used and explains the database setup.
 - The **License section** points to the MIT License.
 
